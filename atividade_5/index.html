@@ -19,6 +19,43 @@
 
 </head>
 <body>
+    <h1>Formulario</h1>
+
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui.." required="true">
+
+        <label for="email">Email</label>
+        <input type="email" name="email " id="email" placeholder="Digite seu email aqui.." required="true">
+
+        <label for="derscricao">Descrição</label>
+        <textarea name="descricao" id="descricao" placeholder="Fale mais sobre voçê aqui..." cols="30" rows="10"></textarea>
+
+        <label for="modulo">Módulo</label>
+        <select name="modulo" id="modulo">
+            <option>Escolher módulo</option>
+            <option>M1</option>
+            <option>M2</option>
+            <option>M3</option>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha aqui.." required="true">
+
+            <label for="senhac">Confirmar senha</label>
+            <input type="password" id="senhac" name="senhac" placeholder="Confirme sua senha" required="true">
+
+            <p>Deseja receber novidades em seu e-mail?</p>
+             
+            <label for="nao">Sim</label>
+            <input type="radio" name="x" id="nao">
+
+            <label for="nao">Nao</label>
+            <input type="radio" name="x" id="nao">
+
+            <button type="submit">Cadastrar</button>
+                    
+        </select>
+    </form>
     
 </body>
 </html>
